@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luiz Cervelati">
+    <meta name="description" content="Portfolio de Luiz Henrique, desenvolvedor web.">
+    <meta name="keywords" content="Desenvolvedor, Web, HTML, CSS, JavaScript, Portfólio, Luiz Henrique">
+    <link rel="stylesheet" href="./style.css">
+    <title>Luiz Cervelati Desenvolvedor Web</title>
+</head>
+
+<body>
+    <header class="header-1">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav-logo">
+                    Luiz H S Cervelati
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#formation" class="nav-link">
+                            Formação
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills">
+                            Habilidades
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects">
+                            Projetos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            Contatos
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home bd grid" id="home">
+            <div class="home-data">
+                <h1 class="home-title"> Olá <br>
+                    Eu sou o
+                    <span class="home-title-color">
+                        Luiz Henrique da Silva Cervelati
+                    </span> <br>
+                    Desenvolvedor Web
+                </h1>
+                <a href="#contact" class="button">Contato</a>
+            </div>
+            <div class="home-img">
+                <br>
+                <br>
+                <img src="./Images/ProfileImage.jpg" width="300" height="300" alt="foto do Luiz" title="Luiz Henrique">
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <h2 class="section-title">
+                Sobre
+            </h2>
+            <div class="about-container bd-grid">
+
+                <div>
+                    <h2 class="about-subtitle">Olá,
+                        Eu sou o Luiz
+                    </h2>
+                    <p class="about-text">
+                        Sou recém-formado em ADS
+                        Fatec Sorocaba-SP.
+                        <br>
+                        Sou apaixonado por criar
+                        aplicativos...
+                        Estou À disposição para novas oportunidades.
+                    </p>
+                    <br><br>
+                    <h3>
+                        Minha Filosofia
+                    </h3>
+                    <q>
+                        O melhor código é aquele que resolve o problema do usuário
+                        com elegância e eficiência.
+                        Gaste pensando, não arrumando.
+                    </q>
+                    <blockquote cite="https://www.editoraiberoamericana.com">
+                        O que vale na vida não é o ponto de partida e sim a caminhada
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section class="formation section" id="formation">
+            <h2 class="section-title">
+                Formação
+            </h2>
+            <div class="formation-container bd-grid">
+                <h3><u>Graduação</u></h3>
+                <p> Tecnologia em ADS <br>
+                    Fatec Sorocaba - SP
+                    Período : 2025 a 2027.
+                </p>
+                <br>
+                <br>
+                <h3><u>Complementar</u></h3>
+                <ol>
+                    <li>Java (SpringBoot)- Udemy (200 horas)</li>
+                    <li>JavaScript - Udemy (250 horas)</li>
+                    <li>IA Generativa GoogleCloud - SENAI (40 horas)</li>
+                </ol>
+            </div>
+        </section>
+        <section class="skills section" id="skills">
+            <h2 class="section-title"> Habilidades
+            </h2>
+            <div class="skills-container bd-grid">
+                <div>
+                    <h2 class="skills-subtitle">
+                        Habilidades Profissionais
+                    </h2>
+                    <p>Minhas habilidades são focadas em
+                        <b>web</b>
+                        incluindo <abbr title="HyperText Markup Language"> HTML</abbr>,
+                        CSS, JavaScript e vários <i>frameworks</i>.
+                    </p>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <p> HTML5 e CSS3 </p>
+                        </div>
+                        <div class="skills-bar skills-html"></div>
+                        <div>
+                            <span class="skills-percentage"> 80% </span>
+                        </div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <p> JavaScript </p>
+                        </div>
+                        <div class="skills-bar skills-js"></div>
+                        <div>
+                            <span class="skills-percentage"> 70% </span>
+                        </div>
+                    </div>
+
+                    <h3>Soft Skills</h3>
+                    <dl>
+                        <dt><em>Comunicação</em></dt>
+                        <dd> Liderança e Apresentações</dd>
+                        <dt><em> Trabalho em equipe</em></dt>
+                        <dd>Equipes de marketing e vendas para lançamento novo produto</dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+        <section class="projects section" id="projects">
+            <h2 class="section-title">
+                Projetos
+            </h2>
+
+            <div class="projects-text">
+                <h3>
+                    Tabela de Projeto
+                </h3>
+                <br>
+                <table class="projects-table">
+                    <thead>
+                        <tr>
+                            <th>Projeto</th>
+                            <th>Tecnologia</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Site Pessoal</td>
+                            <td>HTML, CSS, JS</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Site Institucional da Alpha</td>
+                            <td>React, Node.js</td>
+                            <td>Concluído</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="projects-container bd-grid">
+                <div class="projects-img">
+                    <figure>
+                        <a href="https://github.com/Cervelati" target="_blank">
+                            <img src="./Images/ProfileImageGitHub.jpg" width="300" height="300">
+                        </a>
+                        <figcaption>Perfil Github</figcaption>
+                    </figure>
+                </div>
+                <div class="projects-img">
+                    <figure>
+                        <a href="https://github.com/Cervelati/Library-" target="_blank">
+                            <img src="./Images/bibliotecaImage.png" width="300" height="300">
+                        </a>
+                        <figcaption>API Biblioteca</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
